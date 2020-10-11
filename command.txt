@@ -4,3 +4,4 @@ docker run -p 8080:8080 mosesdastmard/simpleweb
 # to build the docker
 cd [to/the/project/directory]
 docker build -t mosesdastmard/simpleweb .
+
