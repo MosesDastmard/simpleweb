@@ -5,3 +5,8 @@ docker run -p 8080:8080 mosesdastmard/simpleweb
 cd [to/the/project/directory]
 docker build -t mosesdastmard/simpleweb .
 
+# to get the id of running container
+docker ps
+
+# to connect to container via shell command
+docker exec -it [container id: 8c1a180ddfc5] sh
